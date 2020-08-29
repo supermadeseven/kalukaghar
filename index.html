@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz </title>
+    <link rel="stylesheet" href="index1.css" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+  </head>
+  <body>
+    <div class="container">
+
+    
+    <div id="hud">
+      
+      <div id="hud-item">
+       
+         <h1  style="color: white;"class="hud-main-text" id="timer">
+           
+         </h1>
+         
+        <p style="font-size: x-large;" id="progressText" class="hud-prefix">
+         <b>Question</b>
+        
+        </p>
+        <h1  style="color: white;"class="hud-main-text" id="questioncounter">
+          1/3
+        </h1>
+        
+       
+        <p  style="font-size: x-large;" id="progressText" class="hud-prefix">
+          <b>Score</b> 
+         
+         </p>
+         <h1 style="color: white;" class="hud-main-text" id="score">
+           0
+         </h1>
+         
+         <p style="font-size: x-large;" id="progressText" class="hud-prefix">
+          <b>Progess Bar</b>
+         
+         </p>
+         <div class="w3-container" style="all:initial;">
+        
+         <div  id="progressBar">
+          <div id="progressBarFull"></div>
+          </div>
+        </div>
+        </div> 
+        
+        
+       
+        
+        </div>      
+        <div id="game" class="justify-center flex-column ">
+        
+              
+        <h2 id="question"> what is the question</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">choice3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">choice4</p>
+        </div>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
